@@ -32,7 +32,7 @@ Flixster is an app that allows users to browse movies from the [The Movie Databa
 
 
 ### Notes
-Describe any challenges encountered while building the app.
+This app helped me to clearly understand the concepts of Recycler View, Adapter, View Holder and Layout Manager
 
 ### Open-source libraries used
 
