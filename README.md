@@ -28,6 +28,7 @@ Flixster is an app that allows users to browse movies from the [The Movie Databa
 ### Notes
 
 Describe any challenges encountered while building the app.
+1. Using Youtube Player view was confusing.
 
 ## Open-source libraries used
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
