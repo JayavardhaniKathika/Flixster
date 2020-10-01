@@ -16,6 +16,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 import com.codepath.flixster.DetailActivity;
 import com.codepath.flixster.Models.Movie;
 import com.codepath.flixster.R;
@@ -91,7 +92,11 @@ public class MovieAdapters extends RecyclerView.Adapter<MovieAdapters.ViewHolder
                 imageUrl=movie.getPosterPath();
             }
 
-            Glide.with(context).load(imageUrl).into(ivPoster);
+            //Glide.with(context).load(imageUrl).into(ivPoster);
+
+            int radius = 30; // corner radius, higher value = more rounded
+           // int margin = 10; // crop margin, set to 0 for corners with no crop
+            Glide.with(context).load(imageUrl).transform(new RoundedCorners(radius)).into(ivPoster);
 
 
             //Register click listener on the whole container
