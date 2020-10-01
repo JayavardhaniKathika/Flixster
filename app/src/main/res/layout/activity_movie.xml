@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".MovieActivity">
 
     <androidx.recyclerview.widget.RecyclerView
@@ -15,5 +16,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="0dp" />
+        android:layout_marginTop="0dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#302F2C" />
 </RelativeLayout>
